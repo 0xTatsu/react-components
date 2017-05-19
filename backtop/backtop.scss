@@ -1,0 +1,22 @@
+.g-backtop {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    visibility: hidden;
+    opacity: 0;
+    width: 3rem;
+    height: 3rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.showing {
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0s;
+    }
+}
+
+// Reference: http://www.greywyvern.com/?post=337
