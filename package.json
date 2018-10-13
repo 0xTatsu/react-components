@@ -1,0 +1,23 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "description": "Pure React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xTatsu/react-components.git"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "Nghia Mai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xTatsu/react-components/issues"
+  },
+  "homepage": "https://github.com/0xTatsu/react-components#readme"
+}
